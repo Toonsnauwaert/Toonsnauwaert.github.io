@@ -1408,8 +1408,8 @@ header h2 {
 /* Back-to-Top Button Styles */
 #back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2%;
+  right: 2%;
   z-index: 1000;
   width: auto;
   height: auto;
