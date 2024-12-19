@@ -143,6 +143,36 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
+	<button id="back-to-top" style="display: none;">
+		↑
+	</button>
+	
+	
+	<script>
+		// Grab the button
+const backToTopButton = document.getElementById('back-to-top');
+
+// Show or hide the button when scrolling
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        backToTopButton.classList.add('show');
+        backToTopButton.classList.remove('hide');
+    } else {
+        backToTopButton.classList.add('hide');
+        backToTopButton.classList.remove('show');
+    }
+});
+
+// Smooth scroll to top when the button is clicked
+backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+});
+
+	</script>
+	
 	</body>
 </html>
 

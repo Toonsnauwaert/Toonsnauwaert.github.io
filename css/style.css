@@ -1411,26 +1411,22 @@ header h2 {
   bottom: 20px;
   right: 20px;
   z-index: 1000;
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(135deg, #46332a, #663817);
-  color: white;
+  width: auto;
+  height: auto;
+  background: none;
+  color: #4c6141;
   border: none;
-  border-radius: 50%;
-  font-size: 24px;
+  font-size: 50px; /* Large arrow size */
   font-weight: bold;
   text-align: center;
-  line-height: 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  line-height: normal;
+  cursor: pointer;/* White outline */
+  transition: transform 0.3s ease-in-out;
 }
 
 /* Hover Effects */
 #back-to-top:hover {
-  background: linear-gradient(135deg, #8B4513, #5C4033);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-  transform: scale(1.1);
+  transform: scale(1.2); /* Slight scaling effect */
 }
 
 /* Button Visibility Animation */
