@@ -1411,12 +1411,12 @@ header h2 {
   bottom: calc(20px + env(safe-area-inset-bottom)); /* Account for bottom safe area */
   right: calc(20px + env(safe-area-inset-right));
   z-index: 1000;
-  width: auto;
-  height: auto;
+  width: 50px;
+  height: 50px;
   background: none;
   color: #4c6141;
   border: none;
-  font-size: 50px; /* Large arrow size */
+  font-size: 35px; /* Large arrow size */
   font-weight: bold;
   text-align: center;
   line-height: normal;
