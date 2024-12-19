@@ -1408,8 +1408,8 @@ header h2 {
 /* Back-to-Top Button Styles */
 #back-to-top {
   position: fixed;
-  bottom: 2%;
-  right: 2%;
+  bottom: calc(20px + env(safe-area-inset-bottom)); /* Account for bottom safe area */
+  right: calc(20px + env(safe-area-inset-right));
   z-index: 1000;
   width: auto;
   height: auto;
