@@ -19,7 +19,7 @@
 	// Main Menu Superfish
 	var mainMenu = function() {
 
-		$('#fh5co-primary-menu').superfish({
+		$('#Welkom-keramiek-primary-menu').superfish({
 			delay: 0,
 			animation: {
 				opacity: 'show'
@@ -34,7 +34,7 @@
 	// Offcanvas and cloning of the main menu
 	var offcanvas = function() {
 
-		var $clone = $('#fh5co-menu-wrap').clone();
+		var $clone = $('#Welkom-keramiek-menu-wrap').clone();
 		$clone.attr({
 			'id' : 'offcanvas-menu'
 		});
@@ -43,17 +43,17 @@
 			'id' : ''
 		});
 
-		$('#fh5co-page').prepend($clone);
+		$('#Welkom-keramiek-page').prepend($clone);
 
 		// click the burger
-		$('.js-fh5co-nav-toggle').on('click', function(){
+		$('.js-Welkom-keramiek-nav-toggle').on('click', function(){
 
-			if ( $('body').hasClass('fh5co-offcanvas') ) {
-				$('body').removeClass('fh5co-offcanvas');
+			if ( $('body').hasClass('Welkom-keramiek-offcanvas') ) {
+				$('body').removeClass('Welkom-keramiek-offcanvas');
 			} else {
-				$('body').addClass('fh5co-offcanvas');
+				$('body').addClass('Welkom-keramiek-offcanvas');
 			}
-			// $('body').toggleClass('fh5co-offcanvas');
+			// $('body').toggleClass('Welkom-keramiek-offcanvas');
 
 		});
 
@@ -61,8 +61,8 @@
 			var w = $(window);
 
 			if ( w.width() > 769 ) {
-				if ( $('body').hasClass('fh5co-offcanvas') ) {
-					$('body').removeClass('fh5co-offcanvas');
+				if ( $('body').hasClass('Welkom-keramiek-offcanvas') ) {
+					$('body').removeClass('Welkom-keramiek-offcanvas');
 				}
 			}
 
@@ -73,11 +73,11 @@
 	// Superfish Sub Menu Click ( Mobiles/Tablets )
 	var mobileClickSubMenus = function() {
 
-		$('body').on('click', '.fh5co-sub-ddown', function(event) {
+		$('body').on('click', '.Welkom-keramiek-sub-ddown', function(event) {
 			event.preventDefault();
 			var $this = $(this),
 				li = $this.closest('li');
-			li.find('> .fh5co-sub-menu').slideToggle(200);
+			li.find('> .Welkom-keramiek-sub-menu').slideToggle(200);
 		});
 
 	};

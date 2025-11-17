@@ -23,7 +23,7 @@ $form-group-margin-bottom: 30px !default;
 
 
 // Mixin
-@mixin fh5co-translateX($translatex) {
+@mixin Welkom-keramiek-translateX($translatex) {
 	-moz-transform: translateX($translatex);
 	-webkit-transform: translateX($translatex);
 	-ms-transform: translateX($translatex);
@@ -120,7 +120,7 @@ body {
 	color: #848484;
 	font-weight: 300;
 	overflow-x: hidden;
-	&.fh5co-offcanvas {
+	&.Welkom-keramiek-offcanvas {
 		overflow-x: hidden;
 	}
 }
@@ -164,7 +164,7 @@ figure {
   background: $brand-selection-color;
 }
 
-#fh5co-header{
+#Welkom-keramiek-header{
 	position: relative;
 	margin-bottom: 0;
 	.top {
@@ -194,8 +194,8 @@ figure {
 	}
 }
 
-.fh5co-cover,
-.fh5co-hero {
+.Welkom-keramiek-cover,
+.Welkom-keramiek-hero {
 	position: relative;
 	height: 800px;
 	font-weight: 300;
@@ -203,7 +203,7 @@ figure {
 		height: 700px;
 	}
 }
-.fh5co-overlay{
+.Welkom-keramiek-overlay{
 	position: absolute !important;
 	width: 100%;
 	top: 0;
@@ -214,7 +214,7 @@ figure {
 	background: rgba(141,113,96,.3);
 }
 
-.fh5co-cover{
+.Welkom-keramiek-cover{
 	background-size: cover;
 	background-position: center top;
 	position: relative;
@@ -226,7 +226,7 @@ figure {
 		padding: 1em 5em;
 		opacity: .9;
 	}
-	&.fh5co-cover_2{
+	&.Welkom-keramiek-cover_2{
 		height: 700px;
 		@media screen and (max-width: $screen-sm) {
 			heifght: inherit;
@@ -271,7 +271,7 @@ figure {
 					color: #fff !important;
 				}
 
-				&.fh5co-site-name{
+				&.Welkom-keramiek-site-name{
 					padding-bottom: 5px;
 					border-bottom: 1px solid rgba($brand-white,.7);
 				}
@@ -420,7 +420,7 @@ figure {
 	border-left-color: #ccc;
 }
 
-#fh5co-header-section{
+#Welkom-keramiek-header-section{
 	padding:0;
 	position: absolute;
 	top: 5%;
@@ -435,7 +435,7 @@ figure {
 	float: left;
 	width: 100%;
 }
-#fh5co-logo{
+#Welkom-keramiek-logo{
 	position: relative;
 	z-index: 2;
 	font-size: 26px;
@@ -460,7 +460,7 @@ figure {
 	
 }
 
-#fh5co-menu-wrap {
+#Welkom-keramiek-menu-wrap {
 	position: relative;
 	z-index: 2;
 	display: block;
@@ -469,7 +469,7 @@ figure {
 		padding: 2em .75em;
 	}
 }
-#fh5co-primary-menu {
+#Welkom-keramiek-primary-menu {
 	> li {
 		> ul {
 			li {
@@ -513,7 +513,7 @@ figure {
 		}
 	}	
 }
-#fh5co-primary-menu .fh5co-sub-menu {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu {
 	padding:10px 7px 10px;
 	background: $brand-white;
 	left: 0;
@@ -527,14 +527,14 @@ figure {
 	-o-box-shadow:0 5px 15px rgba(0,0,0,0.15);
 	box-shadow:0 5px 15px rgba(0,0,0,0.15);
 	> li {
-		> .fh5co-sub-menu {
+		> .Welkom-keramiek-sub-menu {
 			left: 100%;
 		}	
 	}
 	
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:before {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu:before {
 	position:absolute;
 	top:-9px;
 	left:20px;
@@ -543,7 +543,7 @@ figure {
 	content:'';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:after {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu:after {
 	position:absolute;
 	top:-8px;
 	left:21px;
@@ -556,12 +556,12 @@ figure {
 	content:'';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:before {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu .Welkom-keramiek-sub-menu:before {
 	top:6px;
 	left:100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:after {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu .Welkom-keramiek-sub-menu:after {
 	top:7px;
 	right:100%;
 	border: none!important;
@@ -578,7 +578,7 @@ figure {
 		display:none;	
 	}
 }
-#fh5co-primary-menu .fh5co-sub-menu a {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu a {
 	letter-spacing: 0;
 	padding:0 15px;
 	font-size:18px;
@@ -591,20 +591,20 @@ figure {
 	}
 }
 
-#fh5co-work-section,
-#fh5co-services-section,
-#fh5co-content-section,
-#fh5co-work-section_2{
+#Welkom-keramiek-work-section,
+#Welkom-keramiek-services-section,
+#Welkom-keramiek-content-section,
+#Welkom-keramiek-work-section_2{
 	padding: 7em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 4em 0;
 	}
 
 }
-// #fh5co-work-section{
+// #Welkom-keramiek-work-section{
 // 	padding-top: 8em;
 // }
-// #fh5co-work-section_2{
+// #Welkom-keramiek-work-section_2{
 // 	margin:0;
 // 	padding: 7em 0 0 0;
 // }
@@ -626,7 +626,7 @@ h3.heading-section{
 	}
 }
 
-.fh5co-grid{
+.Welkom-keramiek-grid{
 	height: 302px;
 	background-size: cover;
 	background-position: center center;
@@ -685,7 +685,7 @@ h3.heading-section{
 	position: relative;
 	margin-bottom: 0;
 
-	.fh5co-project-inner	{
+	.Welkom-keramiek-project-inner	{
 		display: table-cell;
 		vertical-align: middle;
 		height: 100vh;
@@ -705,7 +705,7 @@ h3.heading-section{
 		}
 	}
 
-	.fh5co-imgs {
+	.Welkom-keramiek-imgs {
 		height: calc(100% - 50%);
 		position: relative;
 		@media screen and (max-width: $screen-sm) {
@@ -755,7 +755,7 @@ h3.heading-section{
 			}
 		}
 	}
-	&.fh5co-reverse  {
+	&.Welkom-keramiek-reverse  {
 		.img-holder-1 {
 			left: auto;
 			right: 0;
@@ -787,7 +787,7 @@ h3.heading-section{
 
 		}
 	}
-	.fh5co-text {
+	.Welkom-keramiek-text {
 		padding-top: 0;
 		span{
 			text-transform: uppercase;
@@ -828,14 +828,14 @@ h3.heading-section{
 }
 
 
-#fh5co-services, #fh5co-about, #fh5co-contact {
+#Welkom-keramiek-services, #Welkom-keramiek-about, #Welkom-keramiek-contact {
 	padding: 7em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 4em 0;
 	}
 }
 
-#fh5co-contact {
+#Welkom-keramiek-contact {
 	.form-control {
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
@@ -862,7 +862,7 @@ h3.heading-section{
 	}
 }
 
-.fh5co-testimonial{
+.Welkom-keramiek-testimonial{
 	border-right: 1px solid rgba($brand-black,.06);
 	// padding-right: 30px;	
 	// margin: 0 auto;
@@ -907,7 +907,7 @@ h3.heading-section{
 	}
 }
 
-.fh5co-about-us{
+.Welkom-keramiek-about-us{
 	h2{
 		font-size: 16px;
 		letter-spacing: 2px;
@@ -925,7 +925,7 @@ h3.heading-section{
 	}
 }
 
-#fh5co-blog-section{
+#Welkom-keramiek-blog-section{
 	background: #184bde;
 	padding: 5em 0;
 	
@@ -937,7 +937,7 @@ h3.heading-section{
 	}
 }
 
-.fh5co-blog{
+.Welkom-keramiek-blog{
 	width: 100%;
 	height: 385px;
 	background-size: cover;
@@ -997,8 +997,8 @@ h3.heading-section{
 	}
 }
 
-#fh5co-start-project-section{
-	@extend #fh5co-blog-section;
+#Welkom-keramiek-start-project-section{
+	@extend #Welkom-keramiek-blog-section;
 	h2{
 		color: rgba(255,255,255,1);
 		font-size: 60px;
@@ -1096,20 +1096,20 @@ h3.heading-section{
 	}
 }
 
-#fh5co-wrapper {
+#Welkom-keramiek-wrapper {
 	overflow-x: hidden;
 	position: relative;
 }
-#fh5co-page {
+#Welkom-keramiek-page {
 	position: relative;
 	@include transition(.5s);
-	.fh5co-offcanvas & {
-		@include fh5co-translateX(-240px);
+	.Welkom-keramiek-offcanvas & {
+		@include Welkom-keramiek-translateX(-240px);
 	}
 }
 
 // offcanvas
-#fh5co-menu-wrap {
+#Welkom-keramiek-menu-wrap {
 	@media screen and (max-width: $screen-sm) {
 		display: none;
 	}
@@ -1140,7 +1140,7 @@ h3.heading-section{
 					color: $brand-primary;
 				}
 			}
-			> .fh5co-sub-menu {
+			> .Welkom-keramiek-sub-menu {
 				margin-top: 9px;
 				padding-left: 20px;
 			}
@@ -1156,7 +1156,7 @@ h3.heading-section{
 
 
 // Burger Menu
-.fh5co-nav-toggle {
+.Welkom-keramiek-nav-toggle {
  
   cursor: pointer;
   text-decoration: none;
@@ -1211,22 +1211,22 @@ h3.heading-section{
   }
 }
 
-.fh5co-nav-toggle i::before {
+.Welkom-keramiek-nav-toggle i::before {
   top: -7px;
 }
-.fh5co-nav-toggle i::after {
+.Welkom-keramiek-nav-toggle i::after {
   bottom: -7px;
 }
-.fh5co-nav-toggle:hover i::before {
+.Welkom-keramiek-nav-toggle:hover i::before {
   top: -10px;
 }
-.fh5co-nav-toggle:hover i::after {
+.Welkom-keramiek-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.fh5co-nav-toggle.active i {
+.Welkom-keramiek-nav-toggle.active i {
 	background: transparent;
 }
-.fh5co-nav-toggle.active i::before {
+.Welkom-keramiek-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1234,7 +1234,7 @@ h3.heading-section{
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.fh5co-nav-toggle.active i::after {
+.Welkom-keramiek-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1242,7 +1242,7 @@ h3.heading-section{
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.fh5co-nav-toggle {
+.Welkom-keramiek-nav-toggle {
   	position: absolute;
   	top: 0px;
 	right: 0px;
@@ -1321,7 +1321,7 @@ h3.heading-section{
 .js #loader { 
 	display: block; position: absolute; left: 100px; top: 0; 
 }
-.fh5co-loader {
+.Welkom-keramiek-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;

@@ -25,7 +25,7 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
-body.fh5co-offcanvas {
+body.Welkom-keramiek-offcanvas {
   overflow-x: hidden;
 }
 
@@ -74,27 +74,27 @@ figure {
   background: #add992;
 }
 
-#fh5co-header {
+#Welkom-keramiek-header {
   position: relative;
   margin-bottom: 0;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-header .top {
+  #Welkom-keramiek-header .top {
     text-align: center;
   }
 }
-#fh5co-header .top a {
+#Welkom-keramiek-header .top a {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-header .top a {
+  #Welkom-keramiek-header .top a {
     float: left;
   }
 }
-#fh5co-header .top a i {
+#Welkom-keramiek-header .top a i {
   font-size: 17px;
   line-height: 0;
   position: relative;
@@ -106,7 +106,7 @@ figure {
   zoom: 1;
   display: inline;
 }
-#fh5co-header .top a:hover {
+#Welkom-keramiek-header .top a:hover {
   color: white !important;
   text-decoration: underline;
 }
@@ -114,20 +114,20 @@ figure {
 .greenhover:hover{
   color: #4c6141 !important;
 }
-.fh5co-cover,
-.fh5co-hero {
+.Welkom-keramiek-cover,
+.Welkom-keramiek-hero {
   position: relative;
   height: 800px;
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover,
-  .fh5co-hero {
+  .Welkom-keramiek-cover,
+  .Welkom-keramiek-hero {
     height: 700px;
   }
 }
 
-.fh5co-overlay {
+.Welkom-keramiek-overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -138,31 +138,31 @@ figure {
   background: rgba(141, 113, 96, 0.3);
 }
 
-.fh5co-cover {
+.Welkom-keramiek-cover {
   background-size: cover;
   background-position: center top;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover {
+  .Welkom-keramiek-cover {
     height: inherit;
     padding: 3em 0;
   }
 }
-.fh5co-cover .btn {
+.Welkom-keramiek-cover .btn {
   padding: 1em 5em;
   opacity: .9;
 }
-.fh5co-cover.fh5co-cover_2 {
+.Welkom-keramiek-cover.Welkom-keramiek-cover_2 {
   height: 700px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover.fh5co-cover_2 {
+  .Welkom-keramiek-cover.Welkom-keramiek-cover_2 {
     height: inherit;
     padding: 3em 0;
   }
 }
-.fh5co-cover .desc {
+.Welkom-keramiek-cover .desc {
   top: 50%;
   position: absolute;
   width: 100%;
@@ -171,12 +171,12 @@ figure {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover .desc {
+  .Welkom-keramiek-cover .desc {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-.fh5co-cover .desc h2 {
+.Welkom-keramiek-cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 80px;
@@ -184,24 +184,24 @@ figure {
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover .desc h2 {
+  .Welkom-keramiek-cover .desc h2 {
     font-size: 40px;
   }
 }
-.fh5co-cover .desc span {
+.Welkom-keramiek-cover .desc span {
   display: block;
   margin-bottom: 30px;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
 }
-.fh5co-cover .desc span a {
+.Welkom-keramiek-cover .desc span a {
   color: #fff;
 }
-.fh5co-cover .desc span a:hover, .fh5co-cover .desc span a:focus {
+.Welkom-keramiek-cover .desc span a:hover, .Welkom-keramiek-cover .desc span a:focus {
   color: #fff !important;
 }
-.fh5co-cover .desc span a.fh5co-site-name {
+.Welkom-keramiek-cover .desc span a.Welkom-keramiek-site-name {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
@@ -345,7 +345,7 @@ figure {
   border-left-color: #ccc;
 }
 
-#fh5co-header-section {
+#Welkom-keramiek-header-section {
   padding: 0;
   position: absolute;
   top: 5%;
@@ -361,7 +361,7 @@ figure {
   width: 100%;
 }
 
-#fh5co-logo {
+#Welkom-keramiek-logo {
   position: relative;
   z-index: 2;
   font-size: 26px;
@@ -373,7 +373,7 @@ figure {
   max-width: 10%;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-logo {
+  #Welkom-keramiek-logo {
     width: 100%;
     float: none;
     text-align: center;
@@ -391,7 +391,7 @@ figure {
     
   }
 
-  #fh5co-logo {
+  #Welkom-keramiek-logo {
     order: 1; /* Reorder the logo to the first position */
     margin: 1 auto; /* Center the logo horizontally */
     max-width: 15%;
@@ -402,7 +402,7 @@ figure {
 
 @media screen and (max-width: 533px) {
   
-  #fh5co-logo {
+  #Welkom-keramiek-logo {
     order: 1; /* Reorder the logo to the first position */
     margin: 1 auto; /* Center the logo horizontally */
     max-width: 18%;
@@ -413,27 +413,27 @@ figure {
 }
 
 
-#fh5co-logo a {
+#Welkom-keramiek-logo a {
   color: #fff;
 }
-#fh5co-logo a:hover, #fh5co-logo a:focus {
+#Welkom-keramiek-logo a:hover, #Welkom-keramiek-logo a:focus {
   color: #fff !important;
 }
 
-#fh5co-menu-wrap {
+#Welkom-keramiek-menu-wrap {
   position: relative;
   z-index: 2;
   display: block;
   float: right;
 }
-#fh5co-menu-wrap .sf-menu a {
+#Welkom-keramiek-menu-wrap .sf-menu a {
   padding: 2em .75em;
 }
 
-#fh5co-primary-menu > li > ul li.active > a {
+#Welkom-keramiek-primary-menu > li > ul li.active > a {
   color: #4c6141 !important;
 }
-#fh5co-primary-menu > li > .sf-with-ul:after {
+#Welkom-keramiek-primary-menu > li > .sf-with-ul:after {
   border: none !important;
   position: absolute;
   float: right;
@@ -443,10 +443,10 @@ figure {
   content: "\e64b";
   color: #1fb5f6;
 }
-#fh5co-primary-menu > li > ul li {
+#Welkom-keramiek-primary-menu > li > ul li {
   position: relative;
 }
-#fh5co-primary-menu > li > ul li > .sf-with-ul:after {
+#Welkom-keramiek-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   position: absolute;
   float: right;
@@ -457,7 +457,7 @@ figure {
   color: rgba(255, 255, 255, 0.5);
 }
 
-#fh5co-primary-menu .fh5co-sub-menu {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu {
   padding: 10px 7px 10px;
   background: #fff;
   left: 0;
@@ -471,11 +471,11 @@ figure {
   -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-#fh5co-primary-menu .fh5co-sub-menu > li > .fh5co-sub-menu {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu > li > .Welkom-keramiek-sub-menu {
   left: 100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:before {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu:before {
   position: absolute;
   top: -9px;
   left: 20px;
@@ -484,7 +484,7 @@ figure {
   content: '';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:after {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu:after {
   position: absolute;
   top: -8px;
   left: 21px;
@@ -497,12 +497,12 @@ figure {
   content: '';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:before {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu .Welkom-keramiek-sub-menu:before {
   top: 6px;
   left: 100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:after {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu .Welkom-keramiek-sub-menu:after {
   top: 7px;
   right: 100%;
   border: none !important;
@@ -520,7 +520,7 @@ figure {
   display: none;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu a {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
   font-size: 18px;
@@ -529,21 +529,21 @@ figure {
   text-transform: none;
   background: none;
 }
-#fh5co-primary-menu .fh5co-sub-menu a:hover {
+#Welkom-keramiek-primary-menu .Welkom-keramiek-sub-menu a:hover {
   color: #4c6141 !important;
 }
 
-#fh5co-work-section,
-#fh5co-services-section,
-#fh5co-content-section,
-#fh5co-work-section_2 {
+#Welkom-keramiek-work-section,
+#Welkom-keramiek-services-section,
+#Welkom-keramiek-content-section,
+#Welkom-keramiek-work-section_2 {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-work-section,
-  #fh5co-services-section,
-  #fh5co-content-section,
-  #fh5co-work-section_2 {
+  #Welkom-keramiek-work-section,
+  #Welkom-keramiek-services-section,
+  #Welkom-keramiek-content-section,
+  #Welkom-keramiek-work-section_2 {
     padding: 4em 0;
   }
 }
@@ -565,7 +565,7 @@ h3.heading-section:before {
   background: #4c6141;
 }
 
-.fh5co-grid {
+.Welkom-keramiek-grid {
   height: 302px;
   background-size: cover;
   background-position: center center;
@@ -573,11 +573,11 @@ h3.heading-section:before {
   position: relative;
 }
 @media screen and (max-width: 480px) {
-  .fh5co-grid {
+  .Welkom-keramiek-grid {
     height: 400px;
   }
 }
-.fh5co-grid .image-popup {
+.Welkom-keramiek-grid .image-popup {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -586,7 +586,7 @@ h3.heading-section:before {
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
 }
-.fh5co-grid .image-popup .prod-title {
+.Welkom-keramiek-grid .image-popup .prod-title {
   position: absolute;
   top: 50%;
   bottom: 20px;
@@ -594,15 +594,15 @@ h3.heading-section:before {
   right: 20px;
   margin-top: -25px;
 }
-.fh5co-grid .image-popup .prod-title h3 {
+.Welkom-keramiek-grid .image-popup .prod-title h3 {
   margin-bottom: 10px;
   color: #fff;
   font-size: 20px;
 }
-.fh5co-grid .image-popup .prod-title span {
+.Welkom-keramiek-grid .image-popup .prod-title span {
   color: #fff;
 }
-.fh5co-grid:hover .image-popup {
+.Welkom-keramiek-grid:hover .image-popup {
   opacity: 1;
 }
 
@@ -619,7 +619,7 @@ h3.heading-section:before {
   position: relative;
   margin-bottom: 0;
 }
-.work-wrap .fh5co-project-inner {
+.work-wrap .Welkom-keramiek-project-inner {
   display: table-cell;
   vertical-align: middle;
   height: 100vh;
@@ -628,7 +628,7 @@ h3.heading-section:before {
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  .work-wrap .fh5co-project-inner {
+  .work-wrap .Welkom-keramiek-project-inner {
     float: left;
     width: 100%;
     height: inherit !important;
@@ -637,7 +637,7 @@ h3.heading-section:before {
     content: 'viewport-units-buggyfill; width:100vw';
   }
 }
-.work-wrap .fh5co-imgs {
+.work-wrap .Welkom-keramiek-imgs {
   height: calc(100% - 50%);
   position: relative;
 }
@@ -647,22 +647,22 @@ h3.heading-section:before {
   }
 }
 @media screen and (max-width: 768px) {
-  .work-wrap .fh5co-imgs {
+  .work-wrap .Welkom-keramiek-imgs {
     margin-bottom: 80px;
   }
 }
-.work-wrap .fh5co-imgs .img-holder-1,
-.work-wrap .fh5co-imgs .img-holder-2 {
+.work-wrap .Welkom-keramiek-imgs .img-holder-1,
+.work-wrap .Welkom-keramiek-imgs .img-holder-2 {
   position: absolute;
 }
 @media screen and (max-width: 768px) {
-  .work-wrap .fh5co-imgs .img-holder-1,
-  .work-wrap .fh5co-imgs .img-holder-2 {
+  .work-wrap .Welkom-keramiek-imgs .img-holder-1,
+  .work-wrap .Welkom-keramiek-imgs .img-holder-2 {
     position: relative;
   }
 }
-.work-wrap .fh5co-imgs .img-holder-1 img,
-.work-wrap .fh5co-imgs .img-holder-2 img {
+.work-wrap .Welkom-keramiek-imgs .img-holder-1 img,
+.work-wrap .Welkom-keramiek-imgs .img-holder-2 img {
   max-width: 100%;
   -webkit-box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
   -moz-box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
@@ -673,30 +673,30 @@ h3.heading-section:before {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.work-wrap .fh5co-imgs .img-holder-1 {
+.work-wrap .Welkom-keramiek-imgs .img-holder-1 {
   left: 0;
   bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  .work-wrap .fh5co-imgs .img-holder-1 {
+  .work-wrap .Welkom-keramiek-imgs .img-holder-1 {
     right: 0;
   }
 }
-.work-wrap .fh5co-imgs .img-holder-2 {
+.work-wrap .Welkom-keramiek-imgs .img-holder-2 {
   bottom: -2em;
   right: 50px;
 }
 @media screen and (max-width: 768px) {
-  .work-wrap .fh5co-imgs .img-holder-2 {
+  .work-wrap .Welkom-keramiek-imgs .img-holder-2 {
     position: absolute;
   }
 }
 @media screen and (max-width: 480px) {
-  .work-wrap .fh5co-imgs .img-holder-2 {
+  .work-wrap .Welkom-keramiek-imgs .img-holder-2 {
     right: 30px;
     bottom: -1em;
   }
-  .work-wrap .fh5co-imgs .img-holder-2 img {
+  .work-wrap .Welkom-keramiek-imgs .img-holder-2 img {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -704,31 +704,31 @@ h3.heading-section:before {
     height: 194px;
   }
 }
-.work-wrap.fh5co-reverse .img-holder-1 {
+.work-wrap.Welkom-keramiek-reverse .img-holder-1 {
   left: auto;
   right: 0;
 }
-.work-wrap.fh5co-reverse .img-holder-1 img {
+.work-wrap.Welkom-keramiek-reverse .img-holder-1 img {
   text-align: right;
 }
-.work-wrap.fh5co-reverse .img-holder-2 {
+.work-wrap.Welkom-keramiek-reverse .img-holder-2 {
   bottom: -2em;
   right: auto;
   left: 50px;
 }
 @media screen and (max-width: 768px) {
-  .work-wrap.fh5co-reverse .img-holder-2 {
+  .work-wrap.Welkom-keramiek-reverse .img-holder-2 {
     position: absolute;
     left: auto;
     right: 50px;
   }
 }
 @media screen and (max-width: 480px) {
-  .work-wrap.fh5co-reverse .img-holder-2 {
+  .work-wrap.Welkom-keramiek-reverse .img-holder-2 {
     right: 30px;
     bottom: -1em;
   }
-  .work-wrap.fh5co-reverse .img-holder-2 img {
+  .work-wrap.Welkom-keramiek-reverse .img-holder-2 img {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -736,22 +736,22 @@ h3.heading-section:before {
     height: 194px;
   }
 }
-.work-wrap .fh5co-text {
+.work-wrap .Welkom-keramiek-text {
   padding-top: 0;
 }
-.work-wrap .fh5co-text span {
+.work-wrap .Welkom-keramiek-text span {
   text-transform: uppercase;
   display: block;
   margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.3);
   letter-spacing: 1px;
 }
-.work-wrap .fh5co-text h2 {
+.work-wrap .Welkom-keramiek-text h2 {
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-.work-wrap .fh5co-text p {
+.work-wrap .Welkom-keramiek-text p {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -771,16 +771,16 @@ h3.heading-section:before {
   font-weight: 400;
 }
 
-#fh5co-services, #fh5co-about, #fh5co-contact {
+#Welkom-keramiek-services, #Welkom-keramiek-about, #Welkom-keramiek-contact {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-about, #fh5co-contact {
+  #Welkom-keramiek-services, #Welkom-keramiek-about, #Welkom-keramiek-contact {
     padding: 4em 0;
   }
 }
 
-#fh5co-contact .form-control {
+#Welkom-keramiek-contact .form-control {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -ms-box-shadow: none;
@@ -795,37 +795,37 @@ h3.heading-section:before {
   -ms-border-radius: 0px;
   border-radius: 0px;
 }
-#fh5co-contact .form-control:focus, #fh5co-contact .form-control:active {
+#Welkom-keramiek-contact .form-control:focus, #Welkom-keramiek-contact .form-control:active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-#fh5co-contact input[type="text"] {
+#Welkom-keramiek-contact input[type="text"] {
   height: 50px;
 }
-#fh5co-contact .form-group {
+#Welkom-keramiek-contact .form-group {
   margin-bottom: 30px;
 }
 
-.fh5co-testimonial {
+.Welkom-keramiek-testimonial {
   border-right: 1px solid rgba(0, 0, 0, 0.06);
 }
 @media screen and (max-width: 768px) {
-  .fh5co-testimonial {
+  .Welkom-keramiek-testimonial {
     border-right: 0;
     margin-bottom: 80px;
   }
 }
-.fh5co-testimonial h2 {
+.Welkom-keramiek-testimonial h2 {
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.fh5co-testimonial figure {
+.Welkom-keramiek-testimonial figure {
   margin-bottom: 20px;
   background-size: cover;
 }
-.fh5co-testimonial figure img {
+.Welkom-keramiek-testimonial figure img {
   width: 88px;
   height: 88px;
   background-size: cover;
@@ -834,48 +834,48 @@ h3.heading-section:before {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-.fh5co-testimonial blockquote {
+.Welkom-keramiek-testimonial blockquote {
   border: none;
   margin-bottom: 20px;
 }
-.fh5co-testimonial blockquote p {
+.Welkom-keramiek-testimonial blockquote p {
   font-style: italic;
   font-size: 26px;
   line-height: 1.6em;
   color: #555555;
 }
-.fh5co-testimonial span {
+.Welkom-keramiek-testimonial span {
   font-style: italic;
 }
 
-.fh5co-about-us h2 {
+.Welkom-keramiek-about-us h2 {
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.fh5co-about-us img {
+.Welkom-keramiek-about-us img {
   margin-bottom: 30px;
   background-size: cover;
   width: 100%;
 }
-.fh5co-about-us a {
+.Welkom-keramiek-about-us a {
   font-size: 18px;
 }
 
-#fh5co-blog-section, #fh5co-start-project-section {
+#Welkom-keramiek-blog-section, #Welkom-keramiek-start-project-section {
   background: #184bde;
   padding: 5em 0;
 }
-#fh5co-blog-section h3.heading-section, #fh5co-start-project-section h3.heading-section {
+#Welkom-keramiek-blog-section h3.heading-section, #Welkom-keramiek-start-project-section h3.heading-section {
   color: #fff;
 }
-#fh5co-blog-section p, #fh5co-start-project-section p {
+#Welkom-keramiek-blog-section p, #Welkom-keramiek-start-project-section p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.fh5co-blog {
+.Welkom-keramiek-blog {
   width: 100%;
   height: 385px;
   background-size: cover;
@@ -887,17 +887,17 @@ h3.heading-section:before {
   box-shadow: 10px 27px 78px -15px rgba(0, 0, 0, 0.57);
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog {
+  .Welkom-keramiek-blog {
     width: 100%;
   }
 }
-.fh5co-blog:hover, .fh5co-blog:focus {
+.Welkom-keramiek-blog:hover, .Welkom-keramiek-blog:focus {
   width: 100%;
   -webkit-box-shadow: 10px 27px 78px -15px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 10px 27px 78px -15px rgba(0, 0, 0, 0.65);
   box-shadow: 10px 27px 78px -15px rgba(0, 0, 0, 0.65);
 }
-.fh5co-blog .image-popup {
+.Welkom-keramiek-blog .image-popup {
   position: absolute;
   padding: 20px;
   top: 0;
@@ -907,7 +907,7 @@ h3.heading-section:before {
   background: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
-.fh5co-blog .image-popup span {
+.Welkom-keramiek-blog .image-popup span {
   color: #fff;
   margin-bottom: 20px;
   display: inline-block;
@@ -915,34 +915,34 @@ h3.heading-section:before {
   background: rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
 }
-.fh5co-blog .image-popup h3 {
+.Welkom-keramiek-blog .image-popup h3 {
   font-size: 26px;
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
 }
-.fh5co-blog .image-popup p {
+.Welkom-keramiek-blog .image-popup p {
   color: rgba(255, 255, 255, 0.5);
 }
-.fh5co-blog .image-popup:hover, .fh5co-blog .image-popup:focus {
+.Welkom-keramiek-blog .image-popup:hover, .Welkom-keramiek-blog .image-popup:focus {
   background: rgba(0, 0, 0, 0.3);
 }
-.fh5co-blog .image-popup:hover p, .fh5co-blog .image-popup:focus p {
+.Welkom-keramiek-blog .image-popup:hover p, .Welkom-keramiek-blog .image-popup:focus p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#fh5co-start-project-section h2 {
+#Welkom-keramiek-start-project-section h2 {
   color: white;
   font-size: 60px;
   text-transform: uppercase;
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-start-project-section h2 {
+  #Welkom-keramiek-start-project-section h2 {
     font-size: 30px;
   }
 }
-#fh5co-start-project-section a:hover, #fh5co-start-project-section a:focus, #fh5co-start-project-section a:active {
+#Welkom-keramiek-start-project-section a:hover, #Welkom-keramiek-start-project-section a:focus, #Welkom-keramiek-start-project-section a:active {
   color: white !important;
 }
 
@@ -1025,18 +1025,18 @@ h3.heading-section:before {
   opacity: 0;
 }
 
-#fh5co-wrapper {
+#Welkom-keramiek-wrapper {
   overflow-x: hidden;
   position: relative;
 }
 
-#fh5co-page {
+#Welkom-keramiek-page {
   position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-offcanvas #fh5co-page {
+.Welkom-keramiek-offcanvas #Welkom-keramiek-page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
   -ms-transform: translateX(-240px);
@@ -1045,7 +1045,7 @@ h3.heading-section:before {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-menu-wrap {
+  #Welkom-keramiek-menu-wrap {
     display: none;
   }
 }
@@ -1076,7 +1076,7 @@ h3.heading-section:before {
 #offcanvas-menu ul li a:hover {
   color: #4c6141;
 }
-#offcanvas-menu ul li > .fh5co-sub-menu {
+#offcanvas-menu ul li > .Welkom-keramiek-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
@@ -1084,21 +1084,21 @@ h3.heading-section:before {
   color: #4c6141;
 }
 
-.fh5co-nav-toggle {
+.Welkom-keramiek-nav-toggle {
   cursor: pointer;
   text-decoration: none;
 }
-.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+.Welkom-keramiek-nav-toggle.active i::before, .Welkom-keramiek-nav-toggle.active i::after {
   background: #fff;
 }
-.fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
+.Welkom-keramiek-nav-toggle.dark.active i::before, .Welkom-keramiek-nav-toggle.dark.active i::after {
   background: #fff;
 }
-.fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
+.Welkom-keramiek-nav-toggle:hover, .Welkom-keramiek-nav-toggle:focus, .Welkom-keramiek-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
-.fh5co-nav-toggle i {
+.Welkom-keramiek-nav-toggle i {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1112,7 +1112,7 @@ h3.heading-section:before {
   background: #fff;
   transition: all .2s ease-out;
 }
-.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+.Welkom-keramiek-nav-toggle i::before, .Welkom-keramiek-nav-toggle i::after {
   content: '';
   width: 30px;
   height: 2px;
@@ -1123,40 +1123,40 @@ h3.heading-section:before {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-.fh5co-nav-toggle.dark i {
+.Welkom-keramiek-nav-toggle.dark i {
   position: relative;
   color: #000;
   background: #000;
   transition: all .2s ease-out;
 }
-.fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
+.Welkom-keramiek-nav-toggle.dark i::before, .Welkom-keramiek-nav-toggle.dark i::after {
   background: #000;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 
-.fh5co-nav-toggle i::before {
+.Welkom-keramiek-nav-toggle i::before {
   top: -7px;
 }
 
-.fh5co-nav-toggle i::after {
+.Welkom-keramiek-nav-toggle i::after {
   bottom: -7px;
 }
 
-.fh5co-nav-toggle:hover i::before {
+.Welkom-keramiek-nav-toggle:hover i::before {
   top: -10px;
 }
 
-.fh5co-nav-toggle:hover i::after {
+.Welkom-keramiek-nav-toggle:hover i::after {
   bottom: -10px;
 }
 
-.fh5co-nav-toggle.active i {
+.Welkom-keramiek-nav-toggle.active i {
   background: transparent;
 }
 
-.fh5co-nav-toggle.active i::before {
+.Welkom-keramiek-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1165,7 +1165,7 @@ h3.heading-section:before {
   transform: rotateZ(45deg);
 }
 
-.fh5co-nav-toggle.active i::after {
+.Welkom-keramiek-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1174,7 +1174,7 @@ h3.heading-section:before {
   transform: rotateZ(-45deg);
 }
 
-.fh5co-nav-toggle {
+.Welkom-keramiek-nav-toggle {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1185,7 +1185,7 @@ h3.heading-section:before {
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
+  .Welkom-keramiek-nav-toggle {
     display: block;
     top: 0px;
     margin-top: 2.5em;
@@ -1272,7 +1272,7 @@ h3.heading-section:before {
   top: 0;
 }
 
-.fh5co-loader {
+.Welkom-keramiek-loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -1282,7 +1282,7 @@ h3.heading-section:before {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
-span .fh5co-site-name:hover{
+span .Welkom-keramiek-site-name:hover{
   color: green;
 }
 
