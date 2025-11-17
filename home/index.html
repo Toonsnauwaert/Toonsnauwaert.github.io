@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html class="no-js" lang="nl">
+	<base href="/">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,24 +28,26 @@
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	</head>
+	<div class="wrapper">
+		<header>
+		  <i class="bx bx-cookie" style="color: #5C4033; margin-top: -0.8em;"></i>
+		  <h2>Cookies Consent</h2>
+		</header>
+		<div class="data">
+		  <p>This website use cookies to help you have a better and more relevant browsing experience. <a href="policy.html"> Read more...</a></p>
+		</div>
+		<div class="buttons">
+		  <button class="button" id="acceptBtn">Accept all cookies</button>
+		  <button class="button" id="declineBtn">Essential cookies</button>
+		</div>
+	  </div>
 	<body>
+		
+
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 		<div id="fh5co-header">
 
-			<div class="wrapper">
-				<header>
-				  <i class="bx bx-cookie" style="color: #5C4033; margin-top: -0.8em;"></i>
-				  <h2>Cookies Consent</h2>
-				</header>
-				<div class="data">
-				  <p>This website use cookies to help you have a better and more relevant browsing experience. <a href="policy.html"> Read more...</a></p>
-				</div>
-				<div class="buttons">
-				  <button class="button" id="acceptBtn">Accept all cookies</button>
-				  <button class="button" id="declineBtn">Essential cookies</button>
-				</div>
-			  </div>
 			<!-- end:top -->
 			<header id="fh5co-header-section">
 				<div class="container">
@@ -53,11 +57,11 @@
 						<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li>
-								<a href="index.html">Welkom</a>
+							<li class="active">
+								<a href="home">Welkom</a>
 							</li>
-							<li class="active"><a href="lessen.html">Workshops</a></li>
-							<li><a href="about.html">Over ons</a></li>
+							<li><a href="workshops">Workshops</a></li>
+							<li><a href="over-ons">Over ons</a></li>
 						</ul>
 					</nav>
 					</div>
@@ -66,69 +70,93 @@
 			
 		</div>
 		
-		
+
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" style="background-image: url(images/c4ece7e8-8a06-484f-ae15-a9a81fc81916_20241226_143951_0000.jpg);">
+			<div class="fh5co-cover text-center" style="background-image: url(images/index-image2.jpg);">
 				<div class="desc animate-box">
-					<h2>Workshops</h2>
-					<span><a class="btn btn-primary" href="#fh5co-about">Info ↓</a>
-					</span>
+					<h2>Wel- kom</h2>
+					<span>Handgedraaid gebruiksgoed in keramiek & hout</span>
+					<span><p class="btn btn-primary" href="#fh5co-work-section">Ontdek ↓</p></span>
 				</div>
 			</div>
-
 		</div>
-		<!-- END: header -->
-		
-		<div id="fh5co-about" class="border-bottom">
+
+
+		<div id="fh5co-work-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 animate-box">
-						<p>In deze workshop keramiek zit je wellicht voor de eerste keer achter de draaischijf en/of heb je een eerste contact met klei.
-							Je ontdekt op een ontspannende manier of draaien iets voor jou is.
-						</p>
-					</div>
-					<div class="col-md-6 animate-box">
-						<p>
-							Tijdens een sessie van drie uren oefen je de basistechnieken. De initiatieles is beperkt tot max. 2 personen.
-						</p>
-						<p>
-							Contacteer ons voor meer info of het inplannen van een workshop.
+					<div class="col-md-6 col-sm-6">
+						<div class="fh5co-testimonial text-center animate-box">
 
+							<div class="instagram-feed-wrapper">
+        		<div class="instagram-feed">
+            		<script src="https://elfsightcdn.com/platform.js" async></script>
+            	<div class="elfsight-app-0db0ebc0-d2a8-4f37-81dc-0c968d5135cb" data-elfsight-app-lazy></div>
+				</div>
+    		</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<h3 class="heading-section">Ons werk</h3>
+						<p>
+							Wel-kom in onze wereld waarin we keramiek & hout combineren. Natuurlijke materialen die harmonieus blenden tot een warm geheel.
+							Van keramieken kom tot houten bord, elk stuk met zorg handvervaardigd.
 						</p>
 					</div>
 				</div>
-
+			</div>
+		</div>
+		
+		<!-- fh5co-services-section -->
+		<div id="fh5co-content-section">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center animate-box"> <!-- Center the button in the whole container -->
-						<div>
+					<div class="col-md-6 col-sm-6">
+						<div class="fh5co-testimonial text-center animate-box">
+							<h2>Bestellingen</h2>
+							<figure>
+								<img src="images/CM-persona.jpg" alt="user">
+							</figure>
+							<blockquote>
+								<p>“Wil jij een product van ons kopen? Neem dan contact met ons via onze <a href="https://www.instagram.com/welkom_keramiek/" style="text-decoration: underline;">Instagram</a>. Stuur een berichtje voor meer info!”</p>
+							</blockquote>
+							<span>Christel Maes, Wel-kom keramiek.</span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="fh5co-about-us animate-box">
+							<img src="images/9d2a0c8f-8fbe-4ef8-be6d-549630e39d94_20241226_144032_0000.jpg" alt="About Us">
+							<p>
+								Heb je zin gekregen om jouw creatief talent te ontdekken en wil je graag een initiatieles op de draaischijf volgen?
+
+								<br><a href="workshops#CLDR" style="text-decoration: underline;">Boek je initiatieles hier!</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-
 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<p><a href="policy.html">&#169; Copyright 2025 Wel-kom keramiek. All Rights Reserved.</a></p>
-							<p><a href="policy.html"><i class="icon-notebook"></i> Terms & Conditions</a></p>
+							<p><a href="terms-and-conditions">&#169; Copyright 2025 Wel-kom keramiek. All Rights Reserved.</a></p>
+							<p><a href="terms-and-conditions"><i class="icon-notebook"></i> Terms & Conditions</a></p>
 							<p><span> <a href="#"><i>@</i> welkomkeramiek@gmail.com</a></span></p>
 						</div>
 						<div class="col-md-6">
 							<ul class="footer-menu">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="lessen.html">Workshops</a></li>
-								<li><a href="about.html">Over ons</a></li>
+								<li><a href="home">Home</a></li>
+								<li><a href="workshops">Workshops</a></li>
+								<li><a href="over-ons">Over ons</a></li>
 							</ul>
 						</div>
+
 						<div class="col-md-6" style="margin-top: 4em;">
 							<ul class="footer-menu">
 								<li><a href="https://www.google.com/maps/place/Welkom+keramiek/@50.9966519,4.7498767,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x47c15c090ac5d069:0x7150f172fefe3f96!2sPastoriestraat+20,+3128+Tremelo!3b1!8m2!3d50.9966486!4d4.7524516!16s%2Fg%2F11j_1ntqx7!3m5!1s0x47c15db914c0d159:0x976be6492e12422f!8m2!3d50.9966486!4d4.7524516!16s%2Fg%2F11ld95j27b?entry=ttu"><i class="icon-map" style="color: white; font-size: 3em;"></i></a></li>
-
 								<li><a href="https://www.instagram.com/welkom_keramiek/"><i class="icon-instagram" style="color: white; font-size: 3em;"></i></a></li>
 								<li><a href="https://www.facebook.com/welkomkeramiek"><i class="icon-facebook2" style="color: white; font-size: 3em;"></i></a></li>
 							</ul>
@@ -145,16 +173,27 @@
 	</div>
 	<!-- END fh5co-wrapper -->
 
-	<!-- jQuery -->
+	<!-- This goes at the top of lessen.html -->
+<script>
+  if(window.location.pathname.endsWith(".html")){
+    const cleanPath = window.location.pathname.replace(".html", "");
+    window.history.replaceState({}, "", cleanPath);
+  }
+</script>
+
+
 
 	<script>
 		document.querySelector('.btn.btn-primary').addEventListener('click', function (event) {
 			event.preventDefault(); // Prevent the default anchor behavior
-			document.querySelector('#fh5co-about').scrollIntoView({
+			document.querySelector('#fh5co-work-section').scrollIntoView({
 				behavior: 'smooth' // Smooth scrolling effect
 			});
 		});
 		</script>
+		
+	<!-- jQuery -->
+
 
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -170,6 +209,28 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
+	<script>
+		// Show the button when scrolling down
+		window.addEventListener('scroll', function () {
+			const backToTopButton = document.getElementById('back-to-top');
+			if (window.scrollY > 300) {
+				backToTopButton.style.display = 'block';
+			} else {
+				backToTopButton.style.display = 'none';
+			}
+		});
+	</script>
+
+<script>
+	document.querySelector('.btn2').addEventListener('click', function (event) {
+		event.preventDefault(); // Prevent the default anchor behavior
+		document.querySelector('#fh5co-header-section').scrollIntoView({
+			behavior: 'smooth' // Smooth scrolling effect
+		});
+	});
+	</script>
+	
+	
 	<button id="back-to-top" style="display: none;">
 		↑
 	</button>
@@ -199,7 +260,7 @@ backToTopButton.addEventListener('click', () => {
 });
 
 	</script>
-	
+		
 	</body>
 </html>
 

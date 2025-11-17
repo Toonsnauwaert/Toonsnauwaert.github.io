@@ -1936,6 +1936,51 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+.instagram-feed {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.instagram-feed {
+    position: relative;
+    z-index: 1; /* creates a stacking context */
+    
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.instagram-feed::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px; /* adjust to fully cover the badge */
+    background: #e6e7e2; /* or your site’s background color */
+    z-index: 9999; /* HIGHER than the widget */
+    pointer-events: none; /* prevents blocking clicks */
+}
+
+.instagram-feed-wrapper {
+    position: relative;
+    overflow: hidden; /* CRITICAL: crops out the watermark */
+}
+
+.instagram-feed-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;              /* adjust to fully hide the badge */
+    background: #e6e7e2;       /* or #e8e8e2 to match your site */
+    z-index: 9999;
+    pointer-events: none;
+}
+
+
+
 .container:before, .container:after {
   content: " ";
   display: table;
