@@ -42,11 +42,6 @@ a:hover {
   color: black !important;
 }
 
-#Welkom-keramiek-primary-menu a {
-  color: #fff;
-  text-shadow: 0 0 4px rgba(0,0,0,0.8);
-}
-
 p {
   margin-bottom: 1.5em;
   font-size: 20px;
