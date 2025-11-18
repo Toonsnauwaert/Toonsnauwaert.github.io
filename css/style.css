@@ -31,11 +31,12 @@ body.Welkom-keramiek-offcanvas {
 }
 
 a {
-  color: #4c6141;
+  color: #3e4738;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover {
   text-decoration: none !important;
   color: black !important;
@@ -45,9 +46,6 @@ a:hover {
   color: #fff;
   text-shadow: 0 0 4px rgba(0,0,0,0.8);
 }
-
-
-
 
 p {
   margin-bottom: 1.5em;
