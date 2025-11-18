@@ -16,8 +16,6 @@
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Indie+Flower&display=swap');
-
 body {
   font-family: 'Walkway',serif, Arial, sans-serif;
   line-height: 1.5;
@@ -410,7 +408,7 @@ figure {
   
   #Welkom-keramiek-logo {
     order: 1; /* Reorder the logo to the first position */
-    margin: 1 auto; /* Center the logo horizontally */
+    margin: 0 auto; /* Center the logo horizontally */
     max-width: 18%;
     width: 100%;
     margin-top: 0.7em;
