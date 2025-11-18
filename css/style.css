@@ -22,7 +22,7 @@ body {
   font-family: 'Walkway',serif, Arial, sans-serif;
   line-height: 1.5;
   background: #e6e7e2;
-  color: #848484;
+  color: #575656;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -44,7 +44,7 @@ a:hover {
 p {
   margin-bottom: 1.5em;
   font-size: 20px;
-  color: #848484;
+  color: #575656;
   font-weight: 300;
   font-family: 'Walkway', serif, Arial, sans-serif;
 }
@@ -256,7 +256,7 @@ figure {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  color: #ffffff;
   padding: .75em 1em;
   font-weight: normal;
   border-left: none;
@@ -270,6 +270,9 @@ figure {
 .sf-menu a:hover, .sf-menu a:focus {
   color: #fff !important;
 }
+
+
+
 
 .sf-menu li.active {
   border-bottom: 3px solid #fff;
@@ -1072,7 +1075,7 @@ h3.heading-section:before {
 }
 #offcanvas-menu ul li a {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 #offcanvas-menu ul li a:hover {
   color: #4c6141;
@@ -1082,7 +1085,7 @@ h3.heading-section:before {
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #4c6141;
+  color: #22c7ab;
 }
 
 .Welkom-keramiek-nav-toggle {
