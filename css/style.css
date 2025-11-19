@@ -40,6 +40,35 @@ a:hover {
   color: black !important;
 }
 
+.product-wrapper {
+    display: flex;
+    justify-content: center; /* center content horizontally */
+    flex: 0 1 45%;
+}
+
+.product-card {
+    width: 100%;           /* allow full column width */
+    max-width: 500px;      /* optional, keeps products from being too big on desktop */
+}
+
+.product-card iframe,
+.product-card .shopify-buy__btn {
+    max-width: 100% !important; /* make the iframe/button responsive */
+    width: 100% !important;
+}
+
+.buybutton-container {
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.buybutton-container.enlarged {
+    transform: scale(1.5); /* enlarge 1.5x */
+    z-index: 999;          /* bring to front */
+}
+
+
 p {
   margin-bottom: 1.5em;
   font-size: 20px;
