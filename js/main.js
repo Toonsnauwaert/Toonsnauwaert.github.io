@@ -36,7 +36,8 @@
 
 		var $clone = $('#Welkom-keramiek-menu-wrap').clone();
 		$clone.attr({
-			'id' : 'offcanvas-menu'
+			'id' : 'offcanvas-menu',
+			'aria-label': 'Mobile menu'
 		});
 		$clone.find('> ul').attr({
 			'class' : '',
