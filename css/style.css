@@ -427,35 +427,9 @@ figure {
     align-items: center;
     
   }
-
-  #Welkom-keramiek-logo {
-    order: 1; /* Reorder the logo to the first position */
-    margin: 1 auto; /* Center the logo horizontally */
-    max-width: 15%;
-    width: 100%;
-    margin-top: 0.3em;
-  }
-}
-
-@media screen and (max-width: 533px) {
-  
-  #Welkom-keramiek-logo {
-    order: 1; /* Reorder the logo to the first position */
-    margin: 0 auto; /* Center the logo horizontally */
-    max-width: 18%;
-    width: 100%;
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
-  }
 }
 
 
-#Welkom-keramiek-logo a {
-  color: #fff;
-}
-#Welkom-keramiek-logo a:hover, #Welkom-keramiek-logo a:focus {
-  color: #fff !important;
-}
 
 #Welkom-keramiek-menu-wrap {
   position: relative;
