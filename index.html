@@ -13,9 +13,7 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="preload" href="images/index-image2.jpg?v=1" as="image">
-
-<link rel="canonical" href="https://welkomkeramiek.be/">
+<link rel="preload" href="images/index-image2.jpg?v=2" as="image">
 
 <!-- CSS optimalisatie: alle CSS async / non-blocking -->
 <link rel="stylesheet" href="css/bootstrap.css?v=1" media="print" onload="this.media='all'">
@@ -30,19 +28,19 @@
 </head>
 	<body>
 
-		<div class="wrapper">
-		<header aria-label="Cookies consent">
-		  <i class="bx bx-cookie" style="color: #5C4033; margin-top: -0.8em;"></i>
-		  <h2>Cookies Consent</h2>
-		</header>
-		<div class="data">
-		  <p>This website use cookies to help you have a better and more relevant browsing experience. <a href="terms-and-conditions" style="text-decoration: underline;"> Read more...</a></p>
-		</div>
-		<div class="buttons">
-		  <button class="button" id="acceptBtn">Accept all cookies</button>
-		  <button class="button" id="declineBtn">Essential cookies</button>
-		</div>
-	</div>
+		<section class="wrapper" id="cookie-box" aria-label="Cookie melding"> 
+    <div class="cookie-header"> 
+      <i class="bx bx-cookie" style="color: #5C4033; margin-top: -0.8em;"></i>
+      <h2>Cookies Consent</h2>
+    </div>
+    <div class="data">
+      <p>This website uses cookies to help you have a better and more relevant browsing experience. <a href="terms-and-conditions" style="text-decoration: underline;"> Read more...</a></p>
+    </div>
+    <div class="buttons">
+      <button class="button" id="acceptBtn">Accept all cookies</button>
+      <button class="button" id="declineBtn">Essential cookies</button>
+    </div>
+</section>
 
 		<main id="Welkom-keramiek-wrapper" aria-label="Main content">
 		<div id="Welkom-keramiek-page">
@@ -71,9 +69,9 @@
 
 		<div class="Welkom-keramiek-hero">
 			<div class="Welkom-keramiek-overlay"></div>
-			<div class="Welkom-keramiek-cover text-center" style="background-image: url(images/index-image2.jpg?v=1);">
+			<div class="Welkom-keramiek-cover text-center" style="background-image: url(images/index-image2.jpg?v=2);">
 				<div class="desc animate-box">
-					<h1 style="display: none;">Wel- kom</h1>
+					<h1 class="sr-only">Wel- kom</h1>
 					<h2>Wel- kom</h2>
 					<span>Handgedraaid gebruiksgoed in keramiek & hout</span>
 					<span><a class="btn btn-primary" href="#Welkom-keramiek-work-section">Ontdek ↓</a></span>
