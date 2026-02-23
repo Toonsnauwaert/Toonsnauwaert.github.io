@@ -414,7 +414,8 @@ figure {
     width: 100%;
     float: none;
     text-align: center;
-    margin-top: 25px
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
   }
 }
 
