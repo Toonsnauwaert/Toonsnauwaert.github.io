@@ -145,7 +145,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<p><a href="terms-and-conditions">&#169; Copyright 2026 Wel-kom keramiek. All Rights Reserved.</a></p>
+							<p><a href="terms-and-conditions\#copyright">&#169; Copyright 2026 Wel-kom keramiek. All Rights Reserved.</a></p>
 							<p><a href="terms-and-conditions"><i class="icon-notebook"></i> Terms & Conditions</a></p>
 							<p><span> <a href="#footer"><i>@</i> welkomkeramiek@gmail.com</a></span></p>
 						</div>
@@ -227,23 +227,34 @@
 	</button>
 	
 	<script>
-const backToTopButton = document.getElementById('back-to-top');
+	const backToTopButton = document.getElementById('back-to-top');
+const footer = document.getElementById('footer');
 
 window.addEventListener('scroll', () => {
-	if (window.scrollY > 300) {
-		backToTopButton.classList.add('show');
-		backToTopButton.classList.remove('hide');
-	} else {
-		backToTopButton.classList.add('hide');
-		backToTopButton.classList.remove('show');
-	}
+    // 1. Show/Hide Logic
+    if (window.scrollY > 300) {
+        backToTopButton.classList.add('show');
+        backToTopButton.classList.remove('hide');
+    } else {
+        backToTopButton.classList.add('hide');
+        backToTopButton.classList.remove('show');
+    }
+
+    // 2. Color Change Logic
+    const buttonRect = backToTopButton.getBoundingClientRect();
+    const footerRect = footer.getBoundingClientRect();
+
+    // If the top of the footer is higher than the bottom of the button
+    if (footerRect.top <= buttonRect.bottom) {
+        backToTopButton.classList.add('over-footer');
+    } else {
+        backToTopButton.classList.remove('over-footer');
+    }
 });
 
+// Smooth scroll (keep your existing click listener)
 backToTopButton.addEventListener('click', () => {
-	window.scrollTo({
-		top: 0,
-		behavior: 'smooth',
-	});
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 	</script>
 

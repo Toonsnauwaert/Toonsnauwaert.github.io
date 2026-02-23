@@ -971,9 +971,10 @@ h3.heading-section:before {
 }
 
 #footer {
-  background-image: url('/images/shutterstock_196890254.png'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
-  background-size: cover; /* This ensures that the image covers the entire background */
+  background-image: url('/images/shutterstock_196890254.webp'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: contain; /* This ensures that the image covers the entire background */
   background-position: center; /* This centers the background image */
+  background-repeat: repeat;
   padding: 60px 0 40px;
 }
 #footer p {
@@ -985,6 +986,17 @@ h3.heading-section:before {
 #footer p a {
   color: #ffffff;
 }
+
+/* Update these specific lines in your footer section */
+
+/* This targets all links inside the footer div */
+#footer a:hover, 
+#footer .footer-menu li a:hover, 
+#footer p a:hover {
+    color: #40E0D0 !important;    /* Turquoise */
+    text-decoration: underline !important; 
+}
+
 #footer .footer-menu {
   float: right;
   margin: 0;
@@ -1007,7 +1019,7 @@ h3.heading-section:before {
   }
 }
 #footer .footer-menu li a {
-  color: #f7f7e3;
+  color: #ffffff;
 }
 #footer .footer-menu li:first-child {
   margin-left: 0;
@@ -1429,23 +1441,27 @@ header h2 {
   color: #fff;
 }
 
-/* Back-to-Top Button Styles */
+/* The new class triggered by JavaScript */
+#back-to-top.over-footer {
+  color: #ffffff; /* Changes to white */
+  /* Optional: add a slight shadow so it pops against the image */
+  text-shadow: 0px 2px 4px rgb(0, 0, 0); 
+}
+
+/* Add 'color' to your existing transition for a smooth fade */
 #back-to-top {
   position: fixed;
-  bottom: calc(20px + env(safe-area-inset-bottom)); /* Account for bottom safe area */
+  bottom: calc(20px + env(safe-area-inset-bottom));
   right: calc(20px + env(safe-area-inset-right));
   z-index: 1000;
   width: 50px;
   height: 50px;
   background: none;
-  color: #4c6141;
+  color: #4c6141; /* Initial dark green */
   border: none;
-  font-size: 35px; /* Large arrow size */
-  font-weight: bold;
-  text-align: center;
-  line-height: normal;
-  cursor: pointer;/* White outline */
-  transition: transform 0.3s ease-in-out;
+  font-size: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease; /* Added color transition */
 }
 
 /* Hover Effects */
