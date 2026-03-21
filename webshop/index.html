@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Welkom bij Wel-kom Keramiek. Handgedraaid keramiek en houten gebruiksvoorwerpen, workshops en bestelmogelijkheden. Ontdek onze unieke creaties!">
-<title>Welkom Keramiek - Over ons</title>
+<title>Welkom Keramiek - Workshops</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
@@ -14,7 +14,9 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="preload" href="images/about-2.jpg?v=2" as="image">
+
+<link rel="preload" href="images/c4ece7e8-8a06-484f-ae15-a9a81fc81916_20241226_143951_0000.jpg?v=2" as="image">
+
 
 <!-- CSS optimalisatie: alle CSS async / non-blocking -->
 <link rel="stylesheet" href="css/bootstrap.css?v=1" media="print" onload="this.media='all'">
@@ -29,7 +31,7 @@
 </head>
 
 	<body>
-		<main id="Welkom-keramiek-wrapper" aria-label="Welkom Keramiek Main Content">
+		<main id="Welkom-keramiek-wrapper" aria-label="Main content">
 		<div id="Welkom-keramiek-page">
 		<div id="Welkom-keramiek-header">
 
@@ -52,50 +54,27 @@
 					<div class="nav-header">
 						<a href="#Welkom-keramiek-menu-wrap" class="js-Welkom-keramiek-nav-toggle Welkom-keramiek-nav-toggle" aria-label="Open of sluit navigatie"><i aria-hidden="true"></i></a>
 						<img src="images/Wel-Kom_w.png?v=2" id="Welkom-keramiek-logo" alt="Welkom Keramiek logo">
-						
-					<nav id="Welkom-keramiek-menu-wrap" aria-label="Primary menu">
-						<ul class="sf-menu" id="Welkom-keramiek-primary-menu">
-							<li>
-								<a href="home">Welkom</a>
-							</li>
-							<li><a href="workshops">Workshops</a></li>
-							<li><a href="webshop">Webshop</a></li>
-							<li class="active"><a href="over-ons">Over ons</a></li>
-						</ul>
-					</nav>
+						<nav id="Welkom-keramiek-menu-wrap" aria-label="Primary menu">
+							<ul class="sf-menu" id="Welkom-keramiek-primary-menu">
+								<li><a href="home">Welkom</a></li>
+								<li><a href="workshops">Workshops</a></li>
+								<li class="active"><a href="webshop">Webshop</a></li>
+								<li><a href="over-ons">Over ons</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</header>
-			
 		</div>
-		
 		
 		<div class="Welkom-keramiek-hero">
 			<div class="Welkom-keramiek-overlay"></div>
-			<div class="Welkom-keramiek-cover text-center" style="background-image: url(images/about-2.jpg?v=2);">
+			<div class="Welkom-keramiek-cover text-center" style="background-image: url(images/c4ece7e8-8a06-484f-ae15-a9a81fc81916_20241226_143951_0000.jpg?v=2);">
 				<div class="desc animate-box">
 					
-					<h1 class="sr-only">Wie zijn wij?</h1>
-					<h2>Wie zijn wij?</h2>
-				</div>
-			</div>
-
-		</div>
-		
-		<div id="Welkom-keramiek-about" class="border-bottom" role="region" aria-label="about section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 animate-box">
-						<h1>Jan Snauwaert</h1>
-						<p>
-							Als kind keek hij al gefascineerd naar bompa die zijn eigen wandelstokken sneed. Nu staat hij het liefst achter
-							 de draaibank tussen de rondvliegende houtkrullen.
-						</p>
-					</div>
-					<div class="col-md-6 animate-box">
-						<h1>Christel Maes</h1>
-						<p>Gepassioneerd door keramiek en steeds op zoek naar het leukste servies, besloot uiteindelijk om zelf de handen uit de mouwen te steken.</p>
-					</div>
+					<h1 class="sr-only">Webshop</h1>
+					<h2>Webshop</h2>
+					<span><a class="btn btn-primary" href="#boeknu">Binnenkort</a></span>
 				</div>
 			</div>
 		</div>
@@ -106,8 +85,8 @@
 			<div id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
-							<p><a href="terms-and-conditions\#copyright">&#169; Copyright 2026 Wel-kom keramiek. All Rights Reserved.</a></p>
+						<div class="col-md-6"><p>
+							<a href="terms-and-conditions\#copyright">&#169; Copyright 2026 Wel-kom keramiek. All Rights Reserved.</a></p>
 							<p><a href="terms-and-conditions"><i class="icon-notebook"></i> Terms & Conditions</a></p>
 							<p><span> <a href="#footer"><i>@</i> welkomkeramiek@gmail.com</a></span></p>
 						</div>
@@ -143,24 +122,22 @@
 			</div>
 		</footer>
 
-	<!-- jQuery -->
+	<script>
+		document.querySelector('.btn.btn-primary').addEventListener('click', function (event) {
+			event.preventDefault();
+			document.querySelector('#boeknu').scrollIntoView({behavior:'smooth'});
+		});
+	</script>
+
 	<script src="js/jquery.min.js?v=1"></script>
-	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js?v=1"></script>
-	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js?v=1"></script>
-	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js?v=1"></script>
-	<!-- Superfish -->
 	<script src="js/hoverIntent.js?v=1"></script>
 	<script src="js/superfish.js?v=1"></script>
-
-	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js?v=1"></script>
 
-	<button id="back-to-top" style="display: none;">
-		↑
-	</button>
+	<button id="back-to-top" style="display: none;">↑</button>
 
 	<script>
 	const backToTopButton = document.getElementById('back-to-top');
@@ -197,11 +174,9 @@ backToTopButton.addEventListener('click', () => {
 	<script>
 	document.addEventListener('DOMContentLoaded', function() {
 		const navToggle = document.querySelector('.js-Welkom-keramiek-nav-toggle');
-
-		navToggle.addEventListener('click', function(event) {
+		navToggle.addEventListener('click', function(event){
 			event.preventDefault();
-			const menuWrap = document.getElementById('Welkom-keramiek-menu-wrap');
-			menuWrap.classList.toggle('open');
+			document.getElementById('Welkom-keramiek-menu-wrap').classList.toggle('open');
 		});
 	});
 	</script>
