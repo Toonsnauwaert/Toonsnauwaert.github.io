@@ -74,58 +74,44 @@
 					
 					<h1 class="sr-only">Webshop</h1>
 					<h2>Webshop</h2>
-					<span><a class="btn btn-primary" href="#boeknu">Binnenkort</a></span>
+					<span><a class="btn btn-primary" href="#goshop">Bekijk nu</a></span>
 				</div>
 			</div>
 		</div>
 		<section id="shop" class="border-bottom" style="padding: 4em 0;">
-            <div class="container">
-                
+    <div class="container" id="goshop">
+        
 
-                <!-- PRODUCT GRID -->
-                <!-- PRODUCT GRID -->
-<div class="product-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 3em; margin-top: 3em;">
-
-    <!-- PRODUCT 1 -->
-    <div class="product-wrapper" style="flex: 0 1 45%; min-width: 250px;">
-        <div class="product-card">
-            <div id="product-1" class="buybutton-container">
-                <div id='product-component-1763552903991'></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- PRODUCT 2 -->
-    <div class="product-wrapper" style="flex: 0 1 45%; min-width: 250px;">
-        <div class="product-card">
-            <div id="product-2">
-                <div id='product-component-1763552979550'></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- PRODUCT 3 -->
-    <div class="product-wrapper" style="flex: 0 1 45%; min-width: 250px;">
-        <div class="product-card">
-            <div id="product-3">
-                <div id='product-component-1763554831791'></div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-                <!-- Meer producten -->
-                <div class="row">
-                    <div class="col-md-12 text-center" style="margin-top: 3em;">
-                        <p>Meer producten binnenkort beschikbaar.</p>
-                    </div>
+        <div class="shop-section" style="margin-bottom: 5em;">
+            <div class="row">
+                <div class="col-md-12 text-center section-heading">
+                    <h2 style="text-transform: uppercase; letter-spacing: 2px;">Cadeaubonnen</h2>
+                    <p>Het perfecte cadeau voor vrienden of familie! Deze cadeaubon is te besteden in onze fysieke winkel.</p>
                 </div>
-
             </div>
-        </section>
+            <div class="row">
+                <div class="col-md-12">
+                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1TIucfBXf4VllIHLa8skLZOP"
+publishable-key="pk_live_51TI91xBXf4VllIHLnFhQEYP4jt4bxi9Tq0G08OrCX6wKl0RW1ndNfT6McYQi1ctQGH2AF4PpLdNlES5VbAMe8yof002LW2HgiT">
+</stripe-pricing-table>
+
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1TIulFBXf4VllIHLBH1iEl3X"
+publishable-key="pk_live_51TI91xBXf4VllIHLnFhQEYP4jt4bxi9Tq0G08OrCX6wKl0RW1ndNfT6McYQi1ctQGH2AF4PpLdNlES5VbAMe8yof002LW2HgiT">
+</stripe-pricing-table>
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin: 4em 0; border-top: 1px solid #eee;">
+
+    </div>
+</section>
 	</div>
 </main>
+
+
 
 <footer aria-label="Site footer">
 			<div id="footer">
@@ -171,7 +157,7 @@
 	<script>
 		document.querySelector('.btn.btn-primary').addEventListener('click', function (event) {
 			event.preventDefault();
-			document.querySelector('#boeknu').scrollIntoView({behavior:'smooth'});
+			document.querySelector('#goshop').scrollIntoView({behavior:'smooth'});
 		});
 	</script>
 
